@@ -18,7 +18,10 @@ namespace HistoryBookClub.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var books = context.Books
+                .OrderBy(b => b.Title).ToList();
+
+            return View(books);
         }
     }
 }

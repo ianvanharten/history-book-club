@@ -1,7 +1,26 @@
-﻿@{
+﻿@model List<Book>
+@{
 }
 
 <div class="jumbotron">
     <h2>History Book Club</h2>
 </div>
+
+<main class="page-container">
+
+    <div class="card-row">
+        @foreach (Book book in Model)
+        {
+            <div class="card page-card">
+                <div class="card-body">
+                    <h3>@book.Title</h3>
+                    <p>@book.Author</p>
+                    <p>@book.YearOfPublication</p>
+                </div>
+            </div>
+        }
+    </div>
+
+</main>
+
 
