@@ -1,0 +1,23 @@
+﻿@model List<Topic>
+@{
+    
+}
+
+<div class="jumbotron">
+    <h2>History Book Club</h2>
+</div>
+
+<main class="page-container">
+    <h3>@ViewBag.Book.Title</h3>
+    <div class="card-row">
+        @foreach (Topic topic in Model)
+        {
+            <div class="card page-card">
+                <div class="card-body">
+                    <h3>@topic.Title</h3>
+                </div>
+            </div>
+        }
+    </div>
+
+</main>

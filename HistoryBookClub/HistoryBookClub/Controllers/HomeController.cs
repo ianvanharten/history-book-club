@@ -23,5 +23,18 @@ namespace HistoryBookClub.Controllers
 
             return View(books);
         }
+
+        public IActionResult Book(int id)
+        {
+            var book = context.Books
+                .Where(b => b.BookId == id).FirstOrDefault<Book>();
+
+            var topics = context.Topics
+                .Where(t => t.BookId == id).ToList();
+
+            ViewBag.Book = book;
+
+            return View(topics);
+        }
     }
 }

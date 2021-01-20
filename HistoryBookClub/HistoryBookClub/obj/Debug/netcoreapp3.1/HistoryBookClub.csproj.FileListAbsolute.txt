@@ -75,3 +75,4 @@ C:\Users\ianvh\OneDrive - Conestoga College\Documents\GitHub\history-book-club\H
 C:\Users\ianvh\OneDrive - Conestoga College\Documents\GitHub\history-book-club\HistoryBookClub\HistoryBookClub\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ianvh\OneDrive - Conestoga College\Documents\GitHub\history-book-club\HistoryBookClub\HistoryBookClub\obj\Debug\netcoreapp3.1\HistoryBookClub.csproj.CoreCompileInputs.cache
 C:\Users\ianvh\OneDrive - Conestoga College\Documents\GitHub\history-book-club\HistoryBookClub\HistoryBookClub\obj\Debug\netcoreapp3.1\HistoryBookClub.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ianvh\OneDrive - Conestoga College\Documents\GitHub\history-book-club\HistoryBookClub\HistoryBookClub\obj\Debug\netcoreapp3.1\Razor\Views\Home\Book.cshtml.g.cs

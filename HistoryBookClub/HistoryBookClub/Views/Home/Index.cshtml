@@ -16,6 +16,7 @@
                     <h3>@book.Title</h3>
                     <p>@book.Author</p>
                     <p>@book.YearOfPublication</p>
+                    <a asp-action="Book" asp-route-id="@book.BookId" class="btn btn-primary">Go to book</a>
                 </div>
             </div>
         }
